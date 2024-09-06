@@ -1,0 +1,60 @@
+/* this file decorates the dynamic card component */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(101, 155, 203, 0);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+}
+
+.sculpture-image {
+    width: 100%;
+    height: 500px;
+    border-radius: 0%;
+    margin-bottom: 0px;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: linear-gradient(to top, #ffffff00, #000000f6);
+    /* Adjust the opacity as needed */
+}
+
+.text-overlay h2,
+.text-overlay h3,
+.text-overlay p {
+    margin: 0;
+    margin-left: 100px;
+    padding: 10px;
+    width: 50%;
+}
+
+h3 {
+    font-size: small;
+}
+
+.text-overlay button {
+    margin-top: 10px;
+    background-color: rgb(255, 187, 0);
+    font-size: 1.4rem;
+    width: 250px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-left: 100px;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
