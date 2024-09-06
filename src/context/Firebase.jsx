@@ -4,7 +4,7 @@ import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged } from "fir
 import { getDatabase, set, ref } from 'firebase/database'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBEM_hUYpUAwWmNqJ5uJbbrBiK4bI7P9bk",
+    apiKey: "xx",
     authDomain: "terminatedreact.firebaseapp.com",
     projectId: "terminatedreact",
     storageBucket: "terminatedreact.appspot.com",
